@@ -18,6 +18,7 @@ function setup(){
 
 function draw(){
     background(0);
+    rectMode(CENTER);
     Engine.update(engine);
     rect(ground.position.x, ground.position.y,400,20)
 
